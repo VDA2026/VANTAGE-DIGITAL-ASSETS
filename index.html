@@ -3,77 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VANTAGE DIGITAL ASSETS – Automatización Inteligente para Holdings Digitales</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>VANTAGE DIGITAL ASSETS – Activos de Automatización Inteligente</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
-        :root {
-            --navy: #0a1929;
-            --accent: #0099cc;
-            --white: #ffffff;
-            --light: #f4f7f6;
-        }
+        :root { --navy: #0a1929; --accent: #0099cc; --white: #ffffff; }
         body { font-family: 'Poppins', sans-serif; margin: 0; color: #333; line-height: 1.6; }
-        header { background: var(--navy); color: var(--white); padding: 4rem 1rem; text-align: center; }
+        header { background: var(--navy); color: var(--white); padding: 2rem 1rem; text-align: center; }
         .container { max-width: 1000px; margin: auto; padding: 2rem; }
-        .hero { margin-bottom: 3rem; text-align: center; }
-        .btn { display: inline-block; background: var(--accent); color: white; padding: 0.8rem 2rem; text-decoration: none; border-radius: 5px; margin-top: 1rem; transition: background 0.3s; }
-        .btn:hover { background: #007bb5; }
-        
-        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 2rem; }
-        .card { background: var(--white); padding: 2rem; border-radius: 8px; border: 1px solid #ddd; border-top: 5px solid var(--accent); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-        
-        form { display: flex; flex-direction: column; gap: 1rem; max-width: 500px; margin: auto; padding-top: 2rem; }
-        input, textarea { padding: 1rem; border: 1px solid #ddd; border-radius: 4px; font-family: inherit; }
-        footer { text-align: center; padding: 2rem; background: var(--navy); color: white; margin-top: 3rem; }
+        .hero { text-align: center; padding: 4rem 1rem; background: #f4f7f9; }
+        .btn { background: var(--accent); color: white; padding: 0.8rem 2rem; border-radius: 5px; text-decoration: none; font-weight: 600; display: inline-block; margin-top: 1rem; }
+        .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 2rem; }
+        .card { border: 1px solid #ddd; padding: 1.5rem; border-radius: 8px; transition: 0.3s; }
+        .card:hover { border-color: var(--accent); }
+        footer { background: var(--navy); color: white; padding: 2rem; text-align: center; font-size: 0.8rem; }
+        form { display: flex; flex-direction: column; gap: 1rem; max-width: 500px; margin: auto; }
+        input, textarea { padding: 0.8rem; border: 1px solid #ddd; border-radius: 5px; }
     </style>
 </head>
 <body>
 
 <header>
     <h1>VANTAGE DIGITAL ASSETS</h1>
-    <p>Automatiza tu holding con inteligencia artificial</p>
+    <p>Soluciones Técnicas y Activos de Automatización para Holdings Digitales</p>
 </header>
 
-<div class="container">
-    <section class="hero">
-        <h2>Impulsando la nueva era digital</h2>
-        <p>Infraestructura empresarial de alto rendimiento, optimizada para la escalabilidad pasiva mediante soluciones de IA industrial.</p>
-    </section>
+<section class="hero">
+    <h2>Automatiza tu holding con inteligencia artificial</h2>
+    <p>Accede a sistemas propietarios, playbooks de automatización y activos digitales diseñados para maximizar tu eficiencia operativa y financiera.</p>
+    <a href="#contacto" class="btn">Explorar Soluciones</a>
+</section>
 
+<div class="container">
     <section id="servicios">
-        <h2 style="text-align: center;">Nuestros Servicios</h2>
-        <div class="services-grid">
+        <h2>Nuestros Activos & Soluciones</h2>
+        <div class="cards">
             <div class="card">
                 <h3>ATC (Asistente Telefónico por Computadora)</h3>
-                <p>Automatización de llamadas con IA. Atención al cliente, marketing telefónico y gestión inteligente de citas disponible 24/7 sin intervención humana.</p>
+                <p>Infoproducto técnico con configuración de IA para gestión automatizada, marketing telefónico y programación de citas a gran escala.</p>
             </div>
             <div class="card">
-                <h3>Optimización de Activos</h3>
-                <p>Gestión automatizada de canales digitales para maximizar ingresos por afiliados y distribución de marca.</p>
+                <h3>Playbooks de Automatización</h3>
+                <p>Activos digitales detallados con arquitecturas de workflow para eliminar la gestión manual en canales de venta B2B.</p>
             </div>
             <div class="card">
-                <h3>Infraestructura Escalable</h3>
-                <p>Despliegue de sistemas de monitorización y ejecución automática para holdings de alto volumen.</p>
+                <h3>Consultoría de Infraestructura</h3>
+                <p>Optimización de stack tecnológico para empresas digitales con alta necesidad de escalabilidad mediante agentes autónomos.</p>
             </div>
         </div>
     </section>
 
     <section id="contacto" style="margin-top: 4rem;">
-        <h2 style="text-align: center;">Contacto</h2>
+        <h2>Contacto Corporativo</h2>
         <form action="mailto:vantagedigitalassets@vantagedigitalassets.com" method="post" enctype="text/plain">
-            <input type="text" name="nombre" placeholder="Tu Nombre" required>
-            <input type="email" name="email" placeholder="Tu Email" required>
-            <textarea name="mensaje" placeholder="Describe tu necesidad de automatización" rows="5"></textarea>
-            <button type="submit" class="btn">Enviar Propuesta</button>
+            <input type="text" name="Nombre" placeholder="Tu Nombre o Empresa" required>
+            <input type="email" name="Email" placeholder="Tu Email Corporativo" required>
+            <textarea name="Mensaje" rows="5" placeholder="Cuéntanos tus necesidades de automatización"></textarea>
+            <button type="submit" class="btn">Enviar Consulta</button>
         </form>
     </section>
 </div>
 
 <footer>
-    &copy; 2026 VANTAGE DIGITAL ASSETS. Todos los derechos reservados.
-    <p style="font-size: 0.8rem; color: #666; text-align: center; margin-top: 10px;">
-        VANTAGE DIGITAL ASSETS | Operado por URIEL LOPEZ BARRAJON CASTILLO | CALLE CRISTO DE LA SALUD Nº 56 2 A, VALDEMORO, MADRID CP 28342
-    </p>
+    <p>VANTAGE DIGITAL ASSETS | Operado por Uriel López Barrajón Castillo</p>
+    <p>Calle del Cristo de la Salud 56, 2A - 28342 Valdemoro, Madrid</p>
+    <p>NIF: [TU_NIF_AQUI] | Entorno Profesional B2B</p>
+    <p><a href="mailto:vantagedigitalassets@vantagedigitalassets.com" style="color:var(--accent)">vantagedigitalassets@vantagedigitalassets.com</a></p>
 </footer>
 
 </body>
